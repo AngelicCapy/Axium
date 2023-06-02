@@ -401,12 +401,19 @@ footer{
         }
         border: 1px solid #f1f1f1;
         padding: 16px 32px;
+        margin-right: 5%;
         border-radius: 8px;
         background: linear-gradient(to right, #4a918c, #5aaca6cb);
         i{
             padding-right: 5%;
         }
 
+    }
+
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: left;
     }
     span{
         font-size: 2rem;
@@ -719,7 +726,7 @@ body {
         }
         a{
             font-size: 1.2rem;
-            width: 80%;
+            width: 90%;
             
             margin-bottom: 5%;
         }
@@ -728,6 +735,11 @@ body {
         }
         br{
             display: none;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
         }
     }
     #Services{

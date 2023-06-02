@@ -361,6 +361,7 @@ footer a {
   font-weight: 700;
   border: 1px solid #f1f1f1;
   padding: 16px 32px;
+  margin-right: 5%;
   border-radius: 8px;
   background: linear-gradient(to right, #4a918c, rgba(90, 172, 166, 0.7960784314));
 }
@@ -371,6 +372,11 @@ footer a:hover {
 }
 footer a i {
   padding-right: 5%;
+}
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: left;
 }
 footer span {
   font-size: 2rem;
@@ -648,7 +654,7 @@ body {
   }
   footer a {
     font-size: 1.2rem;
-    width: 80%;
+    width: 90%;
     margin-bottom: 5%;
   }
   footer span {
@@ -656,6 +662,11 @@ body {
   }
   footer br {
     display: none;
+  }
+  footer div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   #Services {
     width: 100%;
